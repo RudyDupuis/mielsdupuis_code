@@ -7,7 +7,7 @@ interface Props {
 
 const Header = ({ page }: Props) => {
   let title = <h1></h1>;
-  let imageSrc = "/header/header_index.svg";
+  let imageSrc = "";
   let imageAlt = "";
 
   switch (page) {
@@ -17,17 +17,17 @@ const Header = ({ page }: Props) => {
           Vente directe de miel <br /> du Poitou-Charentes
         </h1>
       );
-      imageSrc = "/header/header_index.svg";
+      imageSrc = "/Header/header_index.svg";
       imageAlt = "Dessin d'une ruche et d'abeilles";
       break;
     case "miels":
       title = <h1>Mes miels du Poitou-Charentes</h1>;
-      imageSrc = "/header/header_miels.svg";
+      imageSrc = "/Header/header_miels.svg";
       imageAlt = "Dessin d'abeilles sur des fleurs d'acacia";
       break;
     case "acheter":
       title = <h1>Où acheter mon miel ?</h1>;
-      imageSrc = "/header/header_acheter.svg";
+      imageSrc = "/Header/header_acheter.svg";
       imageAlt = "Dessin de trois pots de miel";
       break;
     case "contacter":
