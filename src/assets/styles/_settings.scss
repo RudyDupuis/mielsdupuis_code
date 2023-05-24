@@ -1,0 +1,89 @@
+/***** Colors *****/
+
+$primary: #fac100;
+$dark-primary: #ebb500;
+
+$secondary: #739b2d;
+$dark-secondary: #6a8e29;
+
+$false: #f07054;
+$true: #739b2d;
+
+$light: #f4f9eb;
+$dark: #1a1400;
+$dark-2: #4c4c4c;
+$dark-3: #999999;
+$dark-4: #cccccc;
+$dark-5: #f0f0f0;
+
+/***** Fonts *****/
+@font-face {
+  font-family: "font-1";
+  src: url(../fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "font-2";
+  src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+
+$font-1: "font-1", Times;
+$font-2: "font-2", courier;
+
+* {
+  font-family: $font-2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  letter-spacing: 0.02em;
+  color: $dark;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-1;
+  font-weight: 600;
+  line-height: 115%;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+
+a,
+a:visited {
+  font-weight: 600;
+}
+a:hover {
+  color: $dark-3;
+}
+a:active {
+  color: $primary;
+}
+
+/***** Normalize *****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background: $light;
+  min-height: 100vh;
+}

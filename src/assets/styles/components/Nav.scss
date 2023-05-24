@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  height: 80px;
+
+  ul {
+    display: flex;
+
+    li {
+      margin-left: 16px;
+    }
+
+    .active {
+      a {
+        cursor: default;
+        text-decoration: underline;
+
+        &:hover {
+          color: $dark;
+        }
+      }
+    }
+  }
+}

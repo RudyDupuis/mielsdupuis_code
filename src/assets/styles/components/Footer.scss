@@ -1,0 +1,37 @@
+footer {
+  background: $primary;
+  padding: 48px 0px 22px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .links {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: 800px) {
+      flex-direction: column-reverse;
+
+      .mentions-legales {
+        margin: 16px 0;
+      }
+    }
+
+    &__social-networks {
+      a:hover {
+        path {
+          fill: $dark-3;
+        }
+      }
+      a:last-child {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
