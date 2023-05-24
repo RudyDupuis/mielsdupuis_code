@@ -7,7 +7,7 @@ interface Props {
 
 const Header = ({ page }: Props) => {
   let title = <h1></h1>;
-  let imageSrc = "";
+  let imageSrc = "/header/header_index.svg";
   let imageAlt = "";
 
   switch (page) {
