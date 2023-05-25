@@ -11,7 +11,7 @@ const QuiSuisJe = () => {
       />
 
       <p>
-        Je m'appelle Rudy et je suis l'apiculteur passionné derrière
+        Je m&apos;appelle Rudy et je suis l&apos;apiculteur passionné derrière
         MielsDupuis.
         <br />
         <br />
