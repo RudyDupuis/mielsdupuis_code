@@ -12,6 +12,18 @@ nav {
       margin-left: 16px;
     }
 
+    @media (max-width: 400px) {
+      a {
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 350px) {
+      li:nth-child(2) {
+        display: none;
+      }
+    }
+
     .active {
       a {
         cursor: default;

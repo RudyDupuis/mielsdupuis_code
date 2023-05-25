@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 
 export default function MentionsLegales() {
   return (
-    <body>
+    <main>
       <Header page="mentions-légales" />
       <Footer />
-    </body>
+    </main>
   );
 }

@@ -1,0 +1,11 @@
+.section {
+  padding: 100px 15%;
+
+  @media (max-width: 600px) {
+    padding: 70px 15%;
+  }
+
+  h2 {
+    margin-bottom: 64px;
+  }
+}

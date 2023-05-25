@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const Nav = () => {
   const router = useRouter();
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {

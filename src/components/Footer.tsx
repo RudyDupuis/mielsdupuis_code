@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="links">
         <Link href="/mentions-legales" className="mentions-legales">
           Mentions légales
-        </Link>{" "}
+        </Link>
+
         <div className="links__social-networks">
           <Link href="https://www.facebook.com/MielsDupuis" target="_blank">
             <svg
@@ -22,6 +23,7 @@ const Footer = () => {
               />
             </svg>
           </Link>
+
           <Link href="https://www.instagram.com/mielsdupuis/" target="_blank">
             <svg
               width="32"
@@ -38,6 +40,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+
       <p>Copyright © {new Date().getFullYear()} Rudy Dupuis</p>
     </footer>
   );

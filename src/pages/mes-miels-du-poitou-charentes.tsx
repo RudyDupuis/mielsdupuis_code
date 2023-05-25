@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 
 export default function MesMielsDuPoitouCharentes() {
   return (
-    <body>
+    <main>
       <Header page="miels" />
       <Footer />
-    </body>
+    </main>
   );
 }

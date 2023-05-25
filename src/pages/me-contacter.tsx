@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 
 export default function MeContacter() {
   return (
-    <body>
+    <main>
       <Header page="contacter" />
       <Footer />
-    </body>
+    </main>
   );
 }

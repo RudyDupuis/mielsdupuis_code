@@ -1,0 +1,25 @@
+.mes-abeilles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    width: 40%;
+  }
+
+  @media (max-width: 950px) {
+    flex-direction: column-reverse;
+
+    p {
+      margin-top: 24px;
+      width: auto;
+    }
+  }
+
+  @media (max-width: 500px) {
+    img {
+      width: 282px;
+      height: 200px;
+    }
+  }
+}
