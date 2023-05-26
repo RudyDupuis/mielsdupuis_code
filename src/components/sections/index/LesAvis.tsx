@@ -48,9 +48,9 @@ const LesAvis = () => {
       </div>
 
       <p>
-        Miel de qualité, producteur jeune et pleins d'idées. N'hésitez pas et
-        laissez vous tenter 🤗 moi qui n'aime habituellement pas le miel j'ai
-        été conquis par les siens
+        Miel de qualité, producteur jeune et pleins d&apos;idées. N&apos;hésitez
+        pas et laissez vous tenter 🤗 moi qui n&apos;aime habituellement pas le
+        miel j&apos;ai été conquis par les siens
       </p>
     </div>
   );
