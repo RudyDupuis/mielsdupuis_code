@@ -1,0 +1,46 @@
+.miels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+
+    .miels__right {
+      width: 100%;
+      margin-top: 32px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .miels__photo {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__right {
+    width: 50%;
+
+    p {
+      text-align: justify;
+    }
+
+    &--infos {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 32px;
+
+      div {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.miels-reverse {
+  @media (max-width: 1000px) {
+    flex-direction: column-reverse;
+  }
+}

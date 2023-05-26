@@ -2,8 +2,12 @@ import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Section from "@/components/Section";
-import MesAbeilles from "@/components/sections/MesAbeilles";
-import QuiSuisJe from "@/components/sections/QuiSuisJe";
+import CommentEstProduitMonMiel from "@/components/sections/index/CommentEstProduitMonMiel";
+import LImportanceDesAbeillesPourLeClimat from "@/components/sections/index/LImportanceDesAbeillesPourLeClimat";
+import LesAvis from "@/components/sections/index/LesAvis";
+import LesBienfaitsDuMiel from "@/components/sections/index/LesBienfaitsDuMiel";
+import MesAbeilles from "@/components/sections/index/MesAbeilles";
+import QuiSuisJe from "@/components/sections/index/QuiSuisJe";
 
 export default function Accueil() {
   return (
@@ -29,6 +33,21 @@ export default function Accueil() {
         anchor="decouvrir-mon-activite"
       />
       <Section title="Mes abeilles" content={<MesAbeilles />} />
+      <Section
+        title="Comment est produit mon miel ?"
+        content={<CommentEstProduitMonMiel />}
+      />
+      <Section
+        title="Les bienfaits du miel"
+        content={<LesBienfaitsDuMiel />}
+        anchor="bienfaits"
+      />
+      <Section
+        title="L’importance des abeilles pour le climat"
+        content={<LImportanceDesAbeillesPourLeClimat />}
+        anchor="climat"
+      />
+      <Section title="Les avis" content={<LesAvis />} />
 
       <Footer />
     </main>

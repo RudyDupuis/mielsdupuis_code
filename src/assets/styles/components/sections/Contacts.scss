@@ -1,0 +1,28 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+
+    img {
+      margin-bottom: 36px;
+    }
+  }
+
+  section {
+    div {
+      display: flex;
+      align-items: center;
+
+      &:first-child {
+        margin-bottom: 36px;
+      }
+    }
+
+    p {
+      margin-left: 32px;
+    }
+  }
+}

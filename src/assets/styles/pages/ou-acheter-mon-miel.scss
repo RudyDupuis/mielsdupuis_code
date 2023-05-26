@@ -3,13 +3,17 @@
   display: flex;
   justify-content: space-around;
 
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     padding: 32px 0px;
     flex-direction: column;
     text-align: center;
 
-    button:first-child {
-      margin-bottom: 32px;
+    button {
+      width: 80vw;
+
+      &:first-child {
+        margin-bottom: 32px;
+      }
     }
   }
 }

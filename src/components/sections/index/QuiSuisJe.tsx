@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const QuiSuisJe = () => {
   return (
-    <div className="qui-suis-je">
+    <div className="picture-and-text picture-and-text-picture">
       <Image
         src="/Index/beekeper-picture.svg"
         alt="Une photo de moi au rucher"

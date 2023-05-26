@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const MesAbeilles = () => {
   return (
-    <div className="mes-abeilles">
+    <div className="picture-and-text picture-and-text-reverse picture-and-text-picture">
       <p>
         Mes ruchers sont composés d&apos;une vingtaine de ruches, situés en
         forêt. Cela permet à mes abeilles de butiner une grande variété de

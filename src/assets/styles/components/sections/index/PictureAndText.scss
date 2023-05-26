@@ -1,4 +1,4 @@
-.qui-suis-je {
+.picture-and-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,11 +15,19 @@
       width: auto;
     }
   }
+}
 
+.picture-and-text-reverse {
+  @media (max-width: 950px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.picture-and-text-picture {
   @media (max-width: 500px) {
     img {
-      width: 289px;
-      height: 216px;
+      width: 90%;
+      height: auto;
     }
   }
 }

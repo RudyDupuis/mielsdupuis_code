@@ -6,8 +6,15 @@
 @import "./components/Footer.scss";
 @import "./components/Button.scss";
 @import "./components/Section.scss";
-@import "./components/sections/QuiSuisJe.scss";
-@import "./components/sections/MesAbeilles.scss";
+@import "./components/sections/index/CommentEstProduitMonMiel.scss";
+@import "./components/sections/index/LesAvis.scss";
+@import "./components/sections/index/PictureAndText.scss";
+@import "./components/sections/ou-acheter-mon-miel/CommanderEnLigne.scss";
+@import "./components/sections/ou-acheter-mon-miel/PointsDeVente.scss";
+@import "./components/sections/ou-acheter-mon-miel/AchatEnGros.scss";
+@import "./components/sections/mes-miels-du-poitou-charentes/Miels.scss";
+@import "./components/sections/Contacts.scss";
+@import "./components/sections/Mentions.scss";
 
 /***** Pages *****/
 @import "./pages/index.scss";
