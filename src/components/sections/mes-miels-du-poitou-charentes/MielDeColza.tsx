@@ -38,8 +38,8 @@ const MielDeColza = () => {
             <Image
               src="/MesMielsDuPoitouCharentes/flower-colza-draw.svg"
               alt="Un dessin d'une fleur de colza"
-              width={33}
-              height={39}
+              width={40}
+              height={47}
             />
 
             <p>

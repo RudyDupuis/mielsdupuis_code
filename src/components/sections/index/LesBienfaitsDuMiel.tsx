@@ -11,8 +11,8 @@ const LesBienfaitsDuMiel = () => {
       />
 
       <p>
-        Le miel est un aliment sain et naturel, riche en nutriments et en
-        antioxydants.
+        Le miel est un <strong>aliment sain et naturel</strong>, riche en
+        nutriments et en antioxydants.
         <br />
         <br />
         Il est reconnu pour ses propriétés antibactériennes et antioxydantes,
@@ -20,9 +20,13 @@ const LesBienfaitsDuMiel = () => {
         cardiovasculaire.
         <br />
         <br />
-        De plus, le miel est une alternative naturelle et saine au sucre raffiné
-        et aux édulcorants artificiels, souvent associés à des problèmes de
-        santé tels que l&apos;obésité, le diabète et les maladies cardiaques.
+        De plus, le miel est une{" "}
+        <strong>
+          alternative naturelle et saine au sucre raffiné et aux édulcorants
+          artificiels
+        </strong>
+        a, souvent associés à des problèmes de santé tels que l&apos;obésité, le
+        diabète et les maladies cardiaques.
       </p>
     </div>
   );

@@ -45,7 +45,7 @@ const MielDeFleurs = () => {
       <Image
         className="miels__photo"
         src="/MesMielsDuPoitouCharentes/miel-de-fleurs.jpg"
-        alt="Une photo des pots de miel de colza"
+        alt="Une photo des pots de miel de fleurs"
         width={318}
         height={200}
       />

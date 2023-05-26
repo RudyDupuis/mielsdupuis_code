@@ -1,0 +1,13 @@
+.mes-miels-du-poitou-charentes__button {
+  padding: 64px 0px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    width: 50vw;
+
+    @media (max-width: 500px) {
+      width: 80vw;
+    }
+  }
+}

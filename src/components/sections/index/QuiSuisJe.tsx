@@ -11,17 +11,19 @@ const QuiSuisJe = () => {
       />
 
       <p>
-        Je m&apos;appelle Rudy et je suis l&apos;apiculteur passionné derrière
-        MielsDupuis.
+        Je m&apos;appelle <strong>Rudy</strong> et je suis l&apos;
+        <strong>apiculteur passionné</strong> derrière MielsDupuis.
         <br />
         <br />
-        Je produis du miel artisanal depuis plusieurs années. Mes abeilles
-        butinent les fleurs de la région pour produire un miel unique, aux
-        saveurs subtiles et variées.
+        Je produis du <strong>miel artisanal</strong> depuis plusieurs années.{" "}
+        Mes abeilles butinent{" "}
+        <strong>les fleurs de la région Poitou-Charentes</strong> pour produire
+        un <strong>miel unique, aux saveurs subtiles et variées</strong>.
         <br />
         <br />
         Je suis heureux de pouvoir partager ma passion avec vous et de vous
-        proposer des produits de qualité, issus du travail de mes abeilles.
+        proposer des{" "}
+        <strong>produits de qualité, issus du travail de mes abeilles</strong>.
       </p>
     </div>
   );

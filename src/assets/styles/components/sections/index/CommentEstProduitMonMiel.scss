@@ -3,24 +3,90 @@
   flex-direction: column;
   align-items: center;
 
-  img {
-    margin: 45px 0;
+  &__text {
+    max-width: 745px;
+    text-align: justify;
+  }
 
-    &:nth-child(3) {
+  &__sketch {
+    margin: 45px 0;
+    position: relative;
+    width: 745px;
+    height: 552px;
+
+    &--draw-mobile {
       display: none;
     }
 
-    @media (max-width: 950px) {
-      &:nth-child(2) {
+    p {
+      width: 142px;
+    }
+
+    &--step1 {
+      position: absolute;
+      top: 104px;
+      left: 8px;
+    }
+    &--step2 {
+      position: absolute;
+      top: 230px;
+      left: 294px;
+    }
+    &--step3 {
+      position: absolute;
+      top: 117px;
+      left: 590px;
+    }
+    &--step4 {
+      position: absolute;
+      top: 451px;
+      left: 488px;
+    }
+    &--step5 {
+      position: absolute;
+      top: 451px;
+      left: 46px;
+    }
+
+    @media (max-width: 850px) {
+      width: 217px;
+      height: 1005px;
+
+      &--draw-mobile {
+        display: block;
+      }
+      &--draw-desktop {
         display: none;
       }
-      &:nth-child(3) {
-        display: block;
+
+      &--step1 {
+        top: 104px;
+        left: 12px;
+      }
+      &--step2 {
+        top: 306px;
+        left: 99px;
+      }
+      &--step3 {
+        top: 479px;
+        left: -8px;
+      }
+      &--step4 {
+        top: 718px;
+        left: 123px;
+      }
+      &--step5 {
+        top: 911px;
+        left: -27px;
       }
     }
   }
 
-  a {
-    text-align: center;
+  button {
+    width: 50vw;
+
+    @media (max-width: 500px) {
+      width: 80vw;
+    }
   }
 }

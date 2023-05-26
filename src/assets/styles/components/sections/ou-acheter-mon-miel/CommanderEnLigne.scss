@@ -1,7 +1,7 @@
 .commander-en-ligne {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 
   div {
     width: 40%;
@@ -20,10 +20,10 @@
   }
 
   @media (max-width: 950px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     div {
-      margin-bottom: 48px;
+      margin-top: 48px;
       width: auto;
     }
   }

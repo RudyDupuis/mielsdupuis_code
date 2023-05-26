@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Section from "@/components/Section";
@@ -7,12 +8,20 @@ import MielDeTournesol from "@/components/sections/mes-miels-du-poitou-charentes
 
 export default function MesMielsDuPoitouCharentes() {
   return (
-    <main>
+    <main className="mes-miels-du-poitou-charentes">
       <Header page="miels" />
 
       <Section title="Miel de Colza" content={<MielDeColza />} />
       <Section title="Miel de Fleurs" content={<MielDeFleurs />} />
       <Section title="Miel de Tournesol" content={<MielDeTournesol />} />
+
+      <section className="mes-miels-du-poitou-charentes__button">
+        <Button
+          content="Où acheter mon miel ?"
+          link="/ou-acheter-mon-miel"
+          type="primary"
+        />
+      </section>
 
       <Footer />
     </main>

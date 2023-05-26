@@ -5,18 +5,23 @@ const MesAbeilles = () => {
     <div className="picture-and-text picture-and-text-reverse picture-and-text-picture">
       <p>
         Mes ruchers sont composés d&apos;une vingtaine de ruches, situés en
-        forêt. Cela permet à mes abeilles de butiner une grande variété de
-        fleurs sauvages et de produire ainsi un miel aux saveurs riches et
-        complexes.
+        forêt. Cela permet à mes abeilles de{" "}
+        <strong>butiner une grande variété de fleurs sauvages</strong> et de
+        produire ainsi un <strong>miel aux saveurs riches et complexes</strong>.
         <br />
         <br />
-        Je fais un suivi très régulier de mes ruches, avec une visite
-        hebdomadaire en saison pour m&apos;assurer qu&apos;elles sont en bonne
-        santé et pour les aider à se développer. Je m&apos;assure que la reine
-        pond bien et que les couvains se forment correctement.
+        Je fais un{" "}
+        <strong>
+          suivi très régulier de mes ruches, avec une visite hebdomadaire en
+          saison
+        </strong>{" "}
+        pour m&apos;assurer qu&apos;elles sont en bonne santé et pour les aider
+        à se développer. Je m&apos;assure que la reine pond bien et que les
+        couvains se forment correctement.
         <br />
         <br />
-        Mon objectif est de garantir le bien-être de mes abeilles pour
+        Mon objectif est de{" "}
+        <strong>garantir le bien-être de mes abeilles</strong> pour
         qu&apos;elles puissent produire un miel de qualité.
       </p>
 

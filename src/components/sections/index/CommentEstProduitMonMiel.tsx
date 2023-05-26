@@ -4,25 +4,48 @@ import Button from "../../Button";
 const CommentEstProduitMonMiel = () => {
   return (
     <div className="comment-est-produit-mon-miel">
-      <p>
-        Mon miel passe de la fleur au pot en 5 étapes. <br />
-        Je suis fier de dire que mon miel est le moins travaillé possible. Je
-        crois qu&apos;il est important de respecter le produit tel qu&apos;il
-        est, sans modifier sa texture.
+      <p className="comment-est-produit-mon-miel__text">
+        <strong>Mon miel passe de la fleur au pot en 5 étapes.</strong> <br />
+        Je suis fier de dire que{" "}
+        <strong>mon miel est le moins travaillé possible</strong>. Je crois
+        qu&apos;il est important de respecter le produit tel qu&apos;il est,
+        sans modifier sa texture.
       </p>
 
-      <Image
-        src="/Index/how-desktop.svg"
-        alt="Un dessin décrivant comment est produit mon miel"
-        width={712}
-        height={507}
-      />
-      <Image
-        src="/Index/how-mobile.svg"
-        alt="Un dessin décrivant comment est produit mon miel"
-        width={296}
-        height={1003}
-      />
+      <div className="comment-est-produit-mon-miel__sketch">
+        <Image
+          className="comment-est-produit-mon-miel__sketch--draw-desktop"
+          src="/Index/how-honey-desktop.svg"
+          alt="Un dessin montrant les étapes de production de mon miel"
+          width={711}
+          height={432}
+        />
+        <Image
+          className="comment-est-produit-mon-miel__sketch--draw-mobile"
+          src="/Index/how-honey-mobile.svg"
+          alt="Un dessin montrant les étapes de production de mon miel"
+          width={217}
+          height={903}
+        />
+        <p className="comment-est-produit-mon-miel__sketch--step1">
+          Les abeilles <strong>récoltent le nectar</strong> sur les fleurs.
+        </p>
+        <p className="comment-est-produit-mon-miel__sketch--step2">
+          Elles le <strong>transforment en miel</strong> dans la ruche.
+        </p>
+        <p className="comment-est-produit-mon-miel__sketch--step3">
+          Les cadres remplis de miel sont placés dans l&apos;extracteur puis{" "}
+          <strong>extrait à froid</strong> grâce à la force centrifuge.{" "}
+        </p>
+        <p className="comment-est-produit-mon-miel__sketch--step4">
+          Ensuite, je <strong>stocke le miel</strong> dans des fûts
+          alimentaires.
+        </p>
+        <p className="comment-est-produit-mon-miel__sketch--step5">
+          Enfin, je réchauffe le miel à température de ruche (35 °C) pour le{" "}
+          <strong>mettre en pot</strong>.
+        </p>
+      </div>
 
       <Button
         content="Découvrir mes miels du Poitou-Charentes"

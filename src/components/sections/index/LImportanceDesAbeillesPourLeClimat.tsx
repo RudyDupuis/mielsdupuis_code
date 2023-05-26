@@ -5,15 +5,20 @@ const LImportanceDesAbeillesPourLeClimat = () => {
   return (
     <div className="picture-and-text picture-and-text-reverse picture-and-text-picture">
       <p>
-        L&apos;apiculture est une activité bénéfique pour l&apos;environnement
+        L&apos;apiculture est une{" "}
+        <strong>activité bénéfique pour l&apos;environnement</strong>
         et pour l&apos;homme.
         <br />
         <br />
-        En effet, les abeilles sont des pollinisatrices indispensables à la
-        biodiversité et à la survie de nombreuses espèces végétales.
+        En effet,{" "}
+        <strong>
+          les abeilles sont des pollinisatrices indispensables à la biodiversité
+        </strong>{" "}
+        et à la survie de nombreuses espèces végétales.
         <br />
         <br />
-        En pratiquant une apiculture respectueuse de l&apos;environnement, on
+        En pratiquant une{" "}
+        <strong>apiculture respectueuse de l&apos;environnement</strong>, on
         participe à la préservation de ces espèces et à la protection de la
         faune et de la flore.
       </p>

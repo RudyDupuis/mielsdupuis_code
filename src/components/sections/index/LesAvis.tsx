@@ -2,16 +2,21 @@ import axios from "axios";
 
 const LesAvis = () => {
   // async function fetchReviews() {
+  //   const projectId = "mielsdupuis";
   //   const apiKey = "AIzaSyBktV__HA1TNb_ZbDeUmqzX68uLFLaSTko";
   //   const placeId = "ChIJtXa3JQ9-2kQR9ptvyzU1M2A";
+  //   const ficheMyBusinessID = "2676118870651625316";
+  //   const compteMyBusines = "8390053878";
 
   //   try {
   //     const response = await axios.get(
-  //       `https://mybusiness.googleapis.com/v4/accounts/681243965627/locations/ChIJtXa3JQ9-2kQR9ptvyzU1M2A/reviews`
+  //       `https://mybusiness.googleapis.com/v4/accounts/116874388897557256924/locations/ChIJtXa3JQ9-2kQR9ptvyzU1M2A/reviews`
   //     );
 
   //     console.log(response);
-  //   } catch (error) {}
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
   // }
   // fetchReviews();
 
