@@ -20,11 +20,13 @@ $dark-5: #f0f0f0;
 @font-face {
   font-family: "font-1";
   src: url(../fonts/Alkatra-VariableFont_wght.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "font-2";
   src: url(../fonts/Dosis-VariableFont_wght.ttf);
+  font-display: swap;
 }
 
 $font-1: "font-1", Times;
