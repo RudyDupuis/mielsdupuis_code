@@ -6,14 +6,14 @@ const IlsOntDonneLeursAvis = () => {
   const [currentReviews, setCurrentReviews] = useState(0);
 
   const add = () => {
-    if (currentReviews === 2) {
+    if (currentReviews === reviewsData.length - 1) {
       return setCurrentReviews(0);
     }
     setCurrentReviews(currentReviews + 1);
   };
   const remove = () => {
     if (currentReviews === 0) {
-      return setCurrentReviews(2);
+      return setCurrentReviews(reviewsData.length - 1);
     }
     setCurrentReviews(currentReviews - 1);
   };

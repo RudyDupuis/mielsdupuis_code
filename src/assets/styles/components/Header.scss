@@ -2,13 +2,23 @@ header {
   background: $primary;
   position: relative;
 
-  div {
+  .hero-banner {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 100px 50px;
 
-    img {
+    &__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        margin-top: 58px;
+      }
+    }
+
+    &__draw {
       width: 20%;
       height: auto;
     }
@@ -17,7 +27,7 @@ header {
       flex-direction: column;
       padding: 40px 0 100px 0;
 
-      img {
+      .hero-banner__draw {
         margin-top: 40px;
         width: 30%;
       }
@@ -26,7 +36,7 @@ header {
     @media (max-width: 500px) {
       padding: 40px 0 40px 0;
 
-      img {
+      .hero-banner__draw {
         margin-top: 60px;
         width: 50%;
       }

@@ -13,6 +13,7 @@ const Contacts = () => {
       <section>
         <div>
           <Image
+            className="contacts__phone-draw"
             src="/MeContacter/phone.svg"
             alt="Un dessin d'un téléphone"
             width={29}
@@ -22,6 +23,7 @@ const Contacts = () => {
         </div>
         <div>
           <Image
+            className="contacts__mail-draw"
             src="/MeContacter/mail.svg"
             alt="Un dessin d'une enveloppe"
             width={31}

@@ -5,64 +5,20 @@
 
   div {
     position: relative;
-
-    #SuperU-Vouillé {
-      position: absolute;
-      top: 243px;
-      left: 51px;
-    }
-
-    #SuperU-Neuville {
-      position: absolute;
-      top: 204px;
-      left: 90px;
-    }
-
-    #SuperU-Loudun {
-      position: absolute;
-      top: 5px;
-      left: 4px;
-    }
-
-    #Utile-Loudun {
-      position: absolute;
-      top: 3px;
-      left: 22px;
-    }
-
-    #UExpress-Mermoz-Poitiers {
-      position: absolute;
-      top: 273px;
-      left: 141px;
-    }
-
-    #CarrefourExpress-Pontneuf-Poitiers {
-      position: absolute;
-      top: 284px;
-      left: 151px;
-    }
-
-    #CarrefourExpress-Cordeliers-Poitiers {
-      position: absolute;
-      top: 282px;
-      left: 143px;
-    }
-
-    #MaisonMerling-Poitiers {
-      position: absolute;
-      top: 285px;
-      left: 141px;
-    }
-
-    #LaScévolline-MontssurGuesnes {
-      position: absolute;
-      top: 72px;
-      left: 82px;
-    }
   }
 
   li {
     cursor: pointer;
+
+    @media (max-width: 450px) {
+      a {
+        font-size: 14px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 12px;
+    }
   }
 
   @media (max-width: 950px) {

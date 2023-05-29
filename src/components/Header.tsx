@@ -41,10 +41,27 @@ const Header = ({ page }: Props) => {
   return (
     <header>
       <Nav />
-      <div>
-        {title}
+      <div className="hero-banner">
+        <div className="hero-banner__title">
+          {title}{" "}
+          {page === "accueil" && (
+            <Image
+              src="/Header/map.svg"
+              alt="Une carte de france avec un flèche vers Guesnes avec inscrit : Produit à Guesnes"
+              width={221}
+              height={73}
+            />
+          )}
+        </div>
+
         {imageSrc && (
-          <Image src={imageSrc} alt={imageAlt} width={487} height={463} />
+          <Image
+            className="hero-banner__draw"
+            src={imageSrc}
+            alt={imageAlt}
+            width={487}
+            height={463}
+          />
         )}
       </div>
     </header>

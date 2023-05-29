@@ -1,26 +1,32 @@
 import Image from "next/image";
+import { pointsOfSaleData } from "../../../data/pointsOfSaleData";
+import Link from "next/link";
 
 const PointsDeVente = () => {
-  const pointsOfSale = [
-    "Super U - Vouillé",
-    "Super U - Neuville",
-    "Super U - Loudun",
-    "Utile - Loudun",
-    "U Express - Mermoz, Poitiers",
-    "Carrefour Express - Pont neuf, Poitiers",
-    "Carrefour Express - Cordeliers, Poitiers",
-    "Maison Merling - Poitiers",
-    "La Scévolline - Monts sur Guesnes",
-  ];
+  const createPoints = (pointId: string) => {
+    const point = pointsOfSaleData.find((point) => point.id === pointId);
+    if (point) {
+      const element = document.getElementById(pointId);
+      if (element) {
+        element.style.top = `${point.top}px`;
+        element.style.left = `${point.left}px`;
+        element.style.position = "absolute";
+      }
+    }
+  };
 
   const handleMouseEnter = (id: string) => {
-    pointsOfSale.forEach((point) => {
-      document
-        .getElementById(point.replace(/\s/g, "").replace(/,/g, "-"))
-        ?.classList.remove("points-de-vente__point-active");
+    pointsOfSaleData.forEach((point) => {
+      const element = document.getElementById(point.id);
+      if (element) {
+        element.classList.remove("points-de-vente__point-active");
+      }
     });
 
-    document.getElementById(id)?.classList.add("points-de-vente__point-active");
+    const targetElement = document.getElementById(id);
+    if (targetElement) {
+      targetElement.classList.add("points-de-vente__point-active");
+    }
   };
 
   return (
@@ -33,27 +39,25 @@ const PointsDeVente = () => {
           height={330}
         />
 
-        {pointsOfSale.map((point) => (
+        {pointsOfSaleData.map((point) => (
           <Image
-            key={point}
+            key={point.id}
             src="/OuAcheterMonMiel/point.svg"
-            alt={"Une point montrant " + point}
+            alt={"Une point montrant " + point.name}
             width={9}
             height={13}
-            id={point.replace(/\s/g, "").replace(/,/g, "-")}
+            id={point.id}
+            onLoad={() => createPoints(point.id)}
           />
         ))}
       </div>
 
       <ul>
-        {pointsOfSale.map((point) => (
-          <li
-            key={point}
-            onMouseEnter={() =>
-              handleMouseEnter(point.replace(/\s/g, "").replace(/,/g, "-"))
-            }
-          >
-            {point}
+        {pointsOfSaleData.map((point) => (
+          <li key={point.id} onMouseEnter={() => handleMouseEnter(point.id)}>
+            <Link href={point.link} target="_blank">
+              {point.name}
+            </Link>
           </li>
         ))}
       </ul>
