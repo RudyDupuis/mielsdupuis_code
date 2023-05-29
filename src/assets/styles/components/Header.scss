@@ -9,7 +9,7 @@ header {
     padding: 100px 50px;
 
     img {
-      width: 30%;
+      width: 20%;
       height: auto;
     }
 
@@ -19,7 +19,7 @@ header {
 
       img {
         margin-top: 40px;
-        width: 50%;
+        width: 30%;
       }
     }
 
@@ -28,28 +28,29 @@ header {
 
       img {
         margin-top: 60px;
-        width: 80%;
+        width: 50%;
       }
     }
   }
 
-  figure {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: headerButton 5s ease-in infinite;
-  }
+  // figure {
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  //   animation: headerButton 5s ease-in infinite;
+  // }
 
-  p {
-    transform: rotate(90deg);
-    font-size: 5rem;
-    cursor: pointer;
+  // p {
+  //   transform: rotate(90deg);
+  //   font-size: 5rem;
+  //   line-height: 3rem;
+  //   cursor: pointer;
 
-    &:hover {
-      color: $light;
-    }
-  }
+  //   &:hover {
+  //     color: $light;
+  //   }
+  // }
 
   @keyframes headerButton {
     0% {

@@ -54,11 +54,11 @@ const Header = ({ page }: Props) => {
           <Image src={imageSrc} alt={imageAlt} width={487} height={463} />
         )}
       </div>
-      {(page === "accueil" || page === "miels" || page === "acheter") && (
+      {/* {(page === "accueil" || page === "miels" || page === "acheter") && (
         <figure>
           <p onClick={handleClick}>{"›"}</p>
         </figure>
-      )}
+      )} */}
     </header>
   );
 };
