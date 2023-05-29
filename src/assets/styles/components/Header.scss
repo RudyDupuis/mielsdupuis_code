@@ -24,46 +24,12 @@ header {
     }
 
     @media (max-width: 500px) {
-      padding: 60px 0 100px 0;
+      padding: 40px 0 40px 0;
 
       img {
         margin-top: 60px;
         width: 50%;
       }
-    }
-  }
-
-  // figure {
-  //   position: absolute;
-  //   bottom: 0;
-  //   left: 50%;
-  //   transform: translateX(-50%);
-  //   animation: headerButton 5s ease-in infinite;
-  // }
-
-  // p {
-  //   transform: rotate(90deg);
-  //   font-size: 5rem;
-  //   line-height: 3rem;
-  //   cursor: pointer;
-
-  //   &:hover {
-  //     color: $light;
-  //   }
-  // }
-
-  @keyframes headerButton {
-    0% {
-      transform: translate(-50%, 0%);
-    }
-    5% {
-      transform: translate(-50%, -5%);
-    }
-    20% {
-      transform: translate(-50%, 20%);
-    }
-    25% {
-      transform: translate(-50%, 0%);
     }
   }
 }
