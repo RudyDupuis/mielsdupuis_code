@@ -8,10 +8,39 @@ import IlsOntDonneLeursAvis from "@/components/sections/index/IlsOntDonneLeursAv
 import LesBienfaitsDuMiel from "@/components/sections/index/LesBienfaitsDuMiel";
 import MesAbeilles from "@/components/sections/index/MesAbeilles";
 import QuiSuisJe from "@/components/sections/index/QuiSuisJe";
+import Head from "next/head";
 
 export default function Accueil() {
   return (
     <main>
+      <Head>
+        <title>
+          MielsDupuis - Vente directe de miel artisanal du Poitou-Charentes
+        </title>
+        <meta
+          name="description"
+          content="Je suis Rudy, l'apiculteur passionné derrière MielsDupuis. Découvrez mon miel artisanal produit dans la région Poitou-Charentes. Mes abeilles butinent les fleurs sauvages, offrant un miel unique aux saveurs subtiles et variées. Du nectar des fleurs au pot, mon miel est le fruit d'un processus naturel et authentique. Appréciez la texture et les bienfaits de ce trésor doré. Commandez dès maintenant et laissez-vous séduire par la passion des abeilles et la qualité de notre miel."
+        />
+        <meta
+          property="og:title"
+          content="MielsDupuis - Vente directe de miel artisanal du Poitou-Charentes"
+        />
+        <meta
+          property="og:description"
+          content="Je suis Rudy, l'apiculteur passionné derrière MielsDupuis. Découvrez mon miel artisanal produit dans la région Poitou-Charentes. Mes abeilles butinent les fleurs sauvages, offrant un miel unique aux saveurs subtiles et variées. Du nectar des fleurs au pot, mon miel est le fruit d'un processus naturel et authentique. Appréciez la texture et les bienfaits de ce trésor doré. Commandez dès maintenant et laissez-vous séduire par la passion des abeilles et la qualité de notre miel."
+        />
+        <meta
+          property="og:image"
+          content="https://mielsdupuis.vercel.app/open-graph.png"
+        />
+        <meta property="og:url" content="https://mielsdupuis.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:site_name"
+          content="MielsDupuis - Vente directe de miel artisanal du Poitou-Charentes"
+        />
+      </Head>
+
       <Header page="accueil" />
 
       <section className="index__buttons">

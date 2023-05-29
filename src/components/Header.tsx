@@ -2,7 +2,13 @@ import Image from "next/image";
 import Nav from "./Nav";
 
 interface Props {
-  page: "accueil" | "miels" | "acheter" | "contacter" | "mentions-légales";
+  page:
+    | "accueil"
+    | "miels"
+    | "acheter"
+    | "contacter"
+    | "mentions-légales"
+    | "404";
 }
 
 const Header = ({ page }: Props) => {
@@ -36,6 +42,9 @@ const Header = ({ page }: Props) => {
     case "mentions-légales":
       title = <h1>Mentions légales</h1>;
       break;
+    case "404":
+      title = <h1>Page non trouvée</h1>;
+      break;
   }
 
   return (
@@ -50,6 +59,7 @@ const Header = ({ page }: Props) => {
               alt="Une carte de france avec un flèche vers Guesnes avec inscrit : Produit à Guesnes"
               width={221}
               height={73}
+              priority
             />
           )}
         </div>
@@ -61,6 +71,7 @@ const Header = ({ page }: Props) => {
             alt={imageAlt}
             width={487}
             height={463}
+            priority
           />
         )}
       </div>
