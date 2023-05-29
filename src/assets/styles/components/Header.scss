@@ -36,8 +36,14 @@ header {
     @media (max-width: 500px) {
       padding: 40px 0 40px 0;
 
+      .hero-banner__title {
+        img {
+          margin-top: 36px;
+        }
+      }
+
       .hero-banner__draw {
-        margin-top: 60px;
+        margin-top: 20px;
         width: 50%;
       }
     }
