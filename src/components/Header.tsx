@@ -38,6 +38,13 @@ const Header = ({ page }: Props) => {
       break;
   }
 
+  const handleClick = () => {
+    window.scrollTo({
+      top: window.innerHeight * 0.5, // Scroll 50vh
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header>
       <Nav />
@@ -47,6 +54,11 @@ const Header = ({ page }: Props) => {
           <Image src={imageSrc} alt={imageAlt} width={487} height={463} />
         )}
       </div>
+      {(page === "accueil" || page === "miels" || page === "acheter") && (
+        <figure>
+          <p onClick={handleClick}>{"›"}</p>
+        </figure>
+      )}
     </header>
   );
 };

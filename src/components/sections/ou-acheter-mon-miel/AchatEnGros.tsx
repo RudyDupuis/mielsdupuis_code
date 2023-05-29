@@ -15,7 +15,7 @@ const AchatEnGros = () => {
         Mon miel est disponible en pots de différentes tailles{" "}
         <strong>( 250g, 500g et 1kg)</strong>
         et peut être personnalisé avec votre propre étiquette si vous le
-        souhaitez. Je peux également vous proposez des{" "}
+        souhaitez. Je peux également vous proposer des{" "}
         <strong>seaux de 10Kg, 40 Kg ou des fûts de 300kg</strong> (Selon mes
         stocks).
       </p>

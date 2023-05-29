@@ -25,7 +25,7 @@ const LesBienfaitsDuMiel = () => {
           alternative naturelle et saine au sucre raffiné et aux édulcorants
           artificiels
         </strong>
-        a, souvent associés à des problèmes de santé tels que l&apos;obésité, le
+        , souvent associés à des problèmes de santé tels que l&apos;obésité, le
         diabète et les maladies cardiaques.
       </p>
     </div>

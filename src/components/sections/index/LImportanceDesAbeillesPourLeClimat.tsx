@@ -6,8 +6,8 @@ const LImportanceDesAbeillesPourLeClimat = () => {
     <div className="picture-and-text picture-and-text-reverse picture-and-text-picture">
       <p>
         L&apos;apiculture est une{" "}
-        <strong>activité bénéfique pour l&apos;environnement</strong>
-        et pour l&apos;homme.
+        <strong>activité bénéfique pour l&apos;environnement</strong> et pour
+        l&apos;homme.
         <br />
         <br />
         En effet,{" "}

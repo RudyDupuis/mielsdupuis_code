@@ -10,7 +10,7 @@ const PointsDeVente = () => {
     "Carrefour Express - Pont neuf, Poitiers",
     "Carrefour Express - Cordeliers, Poitiers",
     "Maison Merling - Poitiers",
-    "La Scévoline - Monts sur Guesnes",
+    "La Scévolline - Monts sur Guesnes",
   ];
 
   const handleMouseEnter = (id: string) => {
