@@ -7,7 +7,7 @@ const Custom404 = () => {
       <Header page="404" />
 
       <section>
-        <h2>Désolé, la page que vous recherchez n'existe pas.</h2>
+        <h2>Désolé, la page que vous recherchez n&apos;existe pas.</h2>
       </section>
 
       <Footer />
