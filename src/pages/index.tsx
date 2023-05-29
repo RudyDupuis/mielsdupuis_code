@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Section from "@/components/Section";
 import CommentEstProduitMonMiel from "@/components/sections/index/CommentEstProduitMonMiel";
 import LImportanceDesAbeillesPourLeClimat from "@/components/sections/index/LImportanceDesAbeillesPourLeClimat";
-import LesAvis from "@/components/sections/index/LesAvis";
+import IlsOntDonneLeursAvis from "@/components/sections/index/IlsOntDonneLeursAvis";
 import LesBienfaitsDuMiel from "@/components/sections/index/LesBienfaitsDuMiel";
 import MesAbeilles from "@/components/sections/index/MesAbeilles";
 import QuiSuisJe from "@/components/sections/index/QuiSuisJe";
@@ -47,7 +47,10 @@ export default function Accueil() {
         content={<LImportanceDesAbeillesPourLeClimat />}
         anchor="climat"
       />
-      <Section title="Les avis" content={<LesAvis />} />
+      <Section
+        title="Ils ont donné leurs avis"
+        content={<IlsOntDonneLeursAvis />}
+      />
 
       <Footer />
     </main>
