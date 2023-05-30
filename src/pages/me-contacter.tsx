@@ -7,7 +7,6 @@ import Head from "next/head";
 export default function MeContacter() {
   return (
     <main>
-      <Header page="contacter" />
       <Head>
         <title>
           Contactez-moi pour toutes vos questions et partenariats | MielsDupuis
@@ -17,6 +16,8 @@ export default function MeContacter() {
           content="Besoin d'informations supplémentaires ou d'établir un partenariat ? Utilisez notre formulaire de contact pour entrer en contact avec moi, Rudy, l'apiculteur passionné derrière MielsDupuis. Je serai ravi de répondre à vos questions et de partager ma passion pour les miels du Poitou-Charentes avec vous."
         />
       </Head>
+
+      <Header page="contacter" />
 
       <Section content={<Contacts />} />
 
