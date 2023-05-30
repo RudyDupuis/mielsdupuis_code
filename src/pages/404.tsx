@@ -1,12 +1,12 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
-const Custom404 = () => {
+const Error404 = () => {
   return (
     <main>
       <Header page="404" />
 
-      <section className="custom-404">
+      <section className="error-404">
         <h2>Désolé, la page que vous recherchez n&apos;existe pas.</h2>
       </section>
 
@@ -15,4 +15,4 @@ const Custom404 = () => {
   );
 };
 
-export default Custom404;
+export default Error404;

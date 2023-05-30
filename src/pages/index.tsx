@@ -69,12 +69,12 @@ export default function Accueil() {
       <Section
         title="Les bienfaits du miel"
         content={<LesBienfaitsDuMiel />}
-        anchor="bienfaits"
+        classN="greenBackground"
       />
       <Section
         title="L’importance des abeilles pour le climat"
         content={<LImportanceDesAbeillesPourLeClimat />}
-        anchor="climat"
+        classN="greenBackground"
       />
       <Section
         title="Ils ont donné leurs avis"

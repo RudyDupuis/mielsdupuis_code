@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Button from "../../Button";
+import { useState } from "react";
+import { useScreenSizeDetect } from "@/helpers/useScreenSizeDetect";
 
 const CommentEstProduitMonMiel = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(true);
+  useScreenSizeDetect(setIsSmallScreen, 700);
+
   return (
     <div className="comment-est-produit-mon-miel">
       <p className="comment-est-produit-mon-miel__text">
@@ -48,7 +53,11 @@ const CommentEstProduitMonMiel = () => {
       </div>
 
       <Button
-        content="Découvrir mes miels du Poitou-Charentes"
+        content={
+          isSmallScreen
+            ? "Découvrir mes miels"
+            : "Découvrir mes miels du Poitou-Charentes"
+        }
         link="/mes-miels-du-poitou-charentes"
         type="primary"
       />

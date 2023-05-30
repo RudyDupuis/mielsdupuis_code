@@ -4,11 +4,12 @@ interface Props {
   title?: string;
   content: ReactNode;
   anchor?: string;
+  classN?: string;
 }
 
-const Section = ({ title, content, anchor }: Props) => {
+const Section = ({ title, content, anchor, classN }: Props) => {
   return (
-    <section className="section" id={anchor ? anchor : ""}>
+    <section className={"section " + classN} id={anchor ? anchor : ""}>
       {title && <h2>{title}</h2>}
       {content}
     </section>
