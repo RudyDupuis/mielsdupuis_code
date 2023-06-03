@@ -31,9 +31,9 @@ export default function Accueil() {
         />
         <meta
           property="og:image"
-          content="https://mielsdupuis.vercel.app/open-graph.png"
+          content="https://mielsdupuis.fr/open-graph.png"
         />
-        <meta property="og:url" content="https://mielsdupuis.vercel.app/" />
+        <meta property="og:url" content="https://mielsdupuis.fr/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:site_name"
